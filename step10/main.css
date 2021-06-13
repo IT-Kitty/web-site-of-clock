@@ -1,0 +1,314 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;   
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(115,115,115);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(115,115,115);
+    height: 5em;
+    border-radius: 9em;
+
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:rgb(148,148,148);
+    margin-right: 50px;
+    transition: 0.3s linear;
+    text-decoration: none;
+    text-shadow: 0 0 0.2px rgb(218,218,218);
+    
+}
+
+.navigation a:hover {
+    color: rgb(0,0,0);
+    border-bottom: 2px solid rgb(154,154,154);
+    padding-bottom: 10px;
+    text-shadow: 0 0 0.2px rgb(0,0,0);
+}
+
+.search input[type=search] {
+    border: none;
+    border-bottom: 1px solid rgb(109,109,109);
+}
+
+::placeholder { 
+    font-size: 14px;
+    color: rgb(108,108,108);
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.main-content {
+    position: relative;   
+}
+
+.img-main-content {
+    position:absolute;
+    margin-top: 2vh;
+    width: 900px;
+    margin-left: 76vmax;
+    object-fit: cover;    
+}
+
+.container-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 500px;
+    margin-left: 18vw;
+    padding-top: 18vh;
+}
+
+.Head-of-main-content {
+    font-weight: bold;
+    font-size: 56px;
+    margin-bottom: 60px;
+}
+
+.product-description {
+    border-left: 3px solid rgb(144,144,144);
+    color: rgb(148,148,147);
+    text-shadow: rgb(203,203,203) 0 0 1px;
+    padding-left: 40px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.product-link {
+    height: auto;
+    width: 210px;
+    background-color: rgb(232,89,82);
+    border: none;
+    color: rgb(255,255,254);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 10px;
+    box-shadow: rgb(255,195,200) 0 0 1px;
+    outline: none;
+}
+
+.product-link:hover {
+    transition: 3s linear;
+    background-color: rgb(216,80,70);
+    cursor: pointer;
+}
+
+.underline {
+    background-color: rgb(225,225,224);
+    width: 100%;
+    height: 1px;
+    margin-top: 335px;
+}
+
+.advantages {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+
+.block {
+    width: 305px;
+   
+}
+
+.Heading-of-block {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: rgb(0,0,0) 0 0 1px;
+}
+
+.text-of-block {
+    line-height: 25px;
+    text-shadow: rgb(0,0,0) 0 0 0.5px;
+}
+
+.icon-more {
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+}
+
+.indicator {
+    width: 5px;
+    height: 5px;
+    background-color:rgb(193,193,192);
+}
+
+.positioning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.positioning:hover
+.red-line {
+    transition: 0.3s linear;
+    width: 60px;
+}
+
+.red-line {
+    transition: 0.3s linear;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(228,77,73);
+    margin-right: 15px;
+}
+
+
+
+.learn-more-link {
+    
+    text-decoration: none;
+    color: rgb(228,77,73);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buy-link-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 345px;
+}
+
+.image-block {
+    margin-right: 260px;
+}
+
+.Head-of-buy-block {
+    color: rgb(51,51,51);
+    font-size: 60px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 70px;
+
+}
+
+.watches-info {
+    border-left: 3px solid rgb(157,157,157);
+    padding-left: 45px;
+    color: rgb(188,186,187);
+    text-shadow: 0 0 2px rgb(188,186,187);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.buy {
+    width: 120px;
+    height: auto;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(232,89,82);
+    border: none;
+    color: rgb(255,255,254);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 10px;
+    box-shadow: rgb(255,195,200) 0 0 1px;
+}
+
+.buy:hover {
+    transition: 3s linear;
+    background-color: rgb(216,80,70);
+    cursor: pointer;
+}
+
+.watches {
+    width: 600px;
+    height: auto;
+}
+
+.health-block {
+    width: 100%;
+    height: 780px;
+    background: url("img/runners.jpg") no-repeat;
+    background-position-y: 40%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-health-block {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin-right: 360px;
+    margin-top: 230px;
+}
+
+.Head-of-health-block {
+    color: rgb(255,255,255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.health-features {
+    color: rgb(254,253,253);
+    border-left: 3px solid rgb(255,255,255);
+    padding-left: 40px;
+    line-height: 25px;
+    width: 453px;
+    text-shadow: 0 0 2px rgb(254,253,253);
+}
+
+.explore-features {
+    width: 200px;
+    height: auto;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(232,89,82);
+    border: none;
+    color: rgb(255,255,254);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px 10px;
+    box-shadow: rgb(255,195,200) 0 0 1px;
+}
+
+.explore-features:hover {
+    transition: 3s linear;
+    background-color: rgb(216,80,70);
+    cursor: pointer;
+}
